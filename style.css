@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #1abc9c;
+}
+.fullForm{
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+}
+.fullForm .title{
+    width: 300px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+}
+.fullForm form{
+    padding: 18px 20px 18px 20px;
+}
+.fullForm form .row{
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.fullForm form .row input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    padding-left: 5px;
+}
+
+.fullForm form .row i{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.fullForm form .pass{
+    margin: -5px 0 15px 0;
+}
+.fullForm form .pass a{
+    text-decoration: none;
+    color: #1abc9c;
+    font-size: 15px;
+}
+.fullForm form .pass a:hover{
+    text-decoration: underline;
+}
+.fullForm form .submit input{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #1abc9c;
+}
+.fullForm form .sign_up{
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.fullForm form .sign_up a{
+    text-decoration: none;
+    color: #1abc9c;
+    
+}
+.fullForm form .sign_up a:hover{
+    text-decoration: underline;
+}
